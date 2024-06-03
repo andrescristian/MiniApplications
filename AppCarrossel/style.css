@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.Container{
+    max-width: 1080px;/*Centraliza todo o conteúdo de acordo com esta largura máxima*/
+    margin: 0 auto;
+}
+
+/*Deixa todas as imagens responsivas*/
+img{
+    max-width: 100%;
+}
+
+/*Efeito fade (Esmaecimento, Sumindo)*/
+#slide{
+    opacity: 1; /*Opacity:1 é 100% visível*/
+    transition: opacity 2s;
+}
+#slide.FadeOut{
+    opacity: 0.2 ;/* 0 É invisível (0 a 1)*/
+}
