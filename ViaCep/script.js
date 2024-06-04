@@ -13,7 +13,4 @@ function buscarEndereco() {
             console.log(dados)
         })
         .catch(error => console.error('Erro ao buscar o endereço:', error));
-
 }
-
-
